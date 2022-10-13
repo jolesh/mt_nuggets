@@ -1,0 +1,7 @@
+# textdomain: nuggets
+Steel Nugget=
+Bronze Nugget=
+Gold Nugget=
+Tin Nugget=
+Copper Nugget=
+Diamond Shard=
