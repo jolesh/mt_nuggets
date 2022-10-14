@@ -100,3 +100,20 @@ minetest.register_craft({
       {"nuggets:diamond_shard", "nuggets:diamond_shard", "nuggets:diamond_shard"}
    }
 })
+
+--Keys
+
+if minetest.get_modpath("keys") then
+
+	minetest.clear_craft({
+		output = "keys:skeleton_key",
+	})
+
+	minetest.register_craft({
+	   output = "keys:skeleton_key",
+	   recipe = {
+	      {"nuggets:gold_nugget", "nuggets:gold_nugget", "nuggets:gold_nugget"},
+	      {"nuggets:gold_nugget", ""                   , "nuggets:gold_nugget"}
+	   }
+	})
+end
